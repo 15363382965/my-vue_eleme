@@ -1,0 +1,199 @@
+	
+	.active{
+		display: none;
+	}
+	.nav_bottomRight,.activNum,.activ_click{
+		font-size: 0.75rem;
+	}
+	.seller{
+		position: relative;
+		border-bottom: 0.2vw solid #ddd;
+		color: #666;
+		padding: 4vw 0;
+		line-height: normal;
+		font-size: .9rem;
+		margin-top: 1vw;
+	}
+	.disLike{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: black;
+		opacity: 0.6;
+		z-index: 10;
+		display: none;
+	}
+	.disLikeContent{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top:-7.5vw;
+		margin-left:-7.5vw;
+		width: 15vw;;
+		height: 15vw;
+		border-radius: 50%;
+		color: #333;
+		background: white;
+		text-align: center;
+		line-height:15vw;
+		font-size: 1rem;
+		font-weight: 600;
+		font-family: "楷体";
+	}
+	.produce_top{
+		align-items: center;
+		float: left;
+		padding: 0 2.7vw;
+	}
+	
+	.pro_top_img{
+		float: left;
+		position: relative;
+	}
+	.produce_img{
+		float: left;
+		width: 17.5vw;
+		height: 17.5vw;
+		overflow: hidden;
+	}
+	.produce_img img{
+		float: left;
+		width: 100%;
+		height: 100%;
+		display: block;
+		border: 0.06vw solid #333333;
+		border-radius: 0.53vw;
+	}
+	.produce_top_right{	
+		float: right;
+	    width: 72.5vw;
+	    margin-left: 2vw;
+	    
+	}
+	
+	.top_rightText1 h3{
+		text-align: left;
+		color: #333;
+	    font-weight: 700;
+	    font-size: 1.2rem;
+	    overflow: hidden;
+	    display: inline-block;
+	}
+
+	.top_rightText2{
+		float: left;
+		margin-top: 2.5vw;
+		font-size: 0.6rem;
+	}
+	.xingxing{
+		display: inline-block;
+	}
+	.xingxing img{
+		display: inline-block;
+		width: 15vw;
+		height: 2vw;
+	}
+	.top_rightText2 span{
+		display: inline-block;
+        line-height: normal;
+        color: #666666;
+        font-size: 0.8rem;
+	}
+	.scroce{
+		display: inline-block;
+		margin-right: 1.1vw;
+	}
+	.searchClick{
+		float: right;
+		z-index: 90;
+		background: white;
+	}
+	.top_rightText3{
+		 width: 73.5vw;
+		float: left;
+		margin-top: 2vw;
+		font-size: 0.8rem;
+        line-height: normal;
+        color: #666666;
+        margin-bottom: 2vw;
+	}
+	.top_rightText3_left{
+		display: inline-block;
+		float: left;
+	}
+	.sendTerm:after{
+		content: '|';
+		margin: 0 .8vw;
+        color: #ddd;
+        margin-left: 1.2vw;
+	}
+	.top_rightText3_right{
+		text-align: right;
+	}
+	.produce_bottom{
+		float: right;
+		width:73vw;
+		margin-right: 4vw;
+	}
+	.bottom_text1:after{
+		content: "";
+		height: 0.1vw;
+		background: #666;
+		display: block;
+		margin-top:4.5vw; ;
+	}
+	.bottom_text1 span{
+		border:0.1vw solid #666666;
+		padding: 0 1.066667vw;
+		margin-right: 1.333333vw;
+	    margin-bottom: 1.066667vw;
+	    font-size: 0.84rem;
+	}
+	.bottom_text2{
+		margin-top: 2vw;
+		
+	}
+	.sendPrice,.sendTerm,.sendTime{
+		font-size: 0.8rem;
+	}
+	.bottom_text2Left{
+		font-size: 0.91rem;
+		float: left;
+		text-align: left;
+	}
+	.nav_bottomRight{
+		display: inline-block;
+		text-align: right;
+		float: right;
+		z-index: 90;
+		
+	}
+	 .activ_type{
+		width: 7.5vw;
+		height: 7.5vw;
+		padding: 3px;
+		border: 1px solid rosybrown;
+		font-size: 0.8rem;
+		background: rgb(240, 115, 115);
+		margin-right: 1vw;
+		border-radius: 0.7vw;
+	}
+	.activ_content{
+		font-size: 0.78rem;
+	}
+	.top_rightText3_right{
+		font-size: 0.85rem;
+	}
+	.range{
+		font-size: 0.75rem;
+	}
+	.activ{
+		margin-bottom: 3vw;
+		white-space: nowrap;
+	    text-overflow: ellipsis;
+	    vertical-align: middle;
+	     width: 51vw;
+	     overflow: hidden;
+	}
