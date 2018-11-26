@@ -4,7 +4,7 @@
 			<div class="produce_top">
 				<div class="pro_top_img">
 				  <div class="produce_img">
-			      <img :src=v.leftImg  style="border: 1px solid #333;" />
+			      <img :src=v.leftImg  style="border: 0.06vw solid #333;" />
 			      </div>
 				</div>
 				<div class="produce_top_right">
